@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Colin Sandman</title>
+    <link rel="stylesheet" href="styles/index.css">
+  </head>
+  <body style="background-color: rgb(92, 90, 90);">
+    <ul id="nav-tab">
+      <li>
+        <a href="#aboutme">About Me</a>
+      </li>
+      <li class="active">
+        <a href="#projects">
+          Projects
+        </a>
+      </li>
+      <li>
+        <a href="#contact">
+          Contact
+        </a>
+      </li>
+    </ul>
+    <div class="backgroundTitle">
+      <div class = "wrap">
+        <div class="containerTitle">
+          <div class="typewriterTitle">
+              Hi, I'm Colin Sandman
+          </div>
+        </div>
+      </div>
+      <div class = "wrap2">
+        <div class="containerSubTitle">
+          <div class="typewriterSubTitle">
+              Welcome to my page!
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="buttons">
+      <div class ="github">
+        <button onclick="window.open('https://github.com/x56sandmanx','_blank')">
+          <img class="github-logo" src="assets/github-mark-white.png">
+          <img class="github-text"src="assets/GitHub_Logo_White.png">
+        </button>
+      </div>
+
+      <div class ="linkedin">
+        <button onclick="window.open('https://www.linkedin.com/in/colin-sandman-047305237/','_blank')">
+          <img src="assets/LI-Logo.png">
+        </button>
+      </div>
+    </div>
+
+    <div class="about-me" id="aboutme">
+      <header>About Me</header>
+      <p>
+        My name is Colin Sandman! I am a senior at the <span class="USC" onclick="window.open('https://sc.edu/','_blank')">University of South Carolina</span>, majoring in 
+        <span class="USC-CSCE" onclick="window.open('https://sc.edu/study/majors_and_degrees/computer_science_computer_engineering.php','_blank')">Computer Science</span>. 
+        I am an aspiring App Developer who loves to create apps. On this website I will be listing a few projects I have done over my time here and also leave links 
+        to see more about me and some of the code 
+        I have produced!
+      </p>
+    </div>
+
+    <header class="projects-title" id="projects">Projects/Work</header>
+    <div class="projects-top">
+      <div class="project-studiverse">
+        <div>
+          StudiVerse
+        </div>
+          <img class="studiverse-logo" src="assets/studiverse-logo.png">
+          <p class="project-studiverse-desc">
+            StudiVerse is a mobile app to help students find tutors in college. Ever found yourself not able to find session or tutors from your college? With StudiVerse,
+            we have fixed that problem! This project includes:
+          </p>
+          <span onclick="window.open('https://nodejs.org/en/','_blank')" class="studiverse-list">Node JS</span>
+          <span onclick="window.open('https://reactnative.dev/','_blank')" class="studiverse-list">React Native</span>
+          <span onclick="window.open('https://firebase.google.com/','_blank')" class="studiverse-list">Firebase</span>
+      </div>
+      <div class="project-sandbot">
+        <div>
+          SandBot
+        </div>
+          <img class="sandbot-logo" src="assets/sand-bot-circle.png">
+          <p class="project-sandbot-desc">
+            SandBot is a discord bot written in Python using Discord.py API. This bot is used for my personal discord server where i has moderation commands
+            and some fun little commands for members to use. This project includes:
+          </p>
+          <span onclick="window.open('https://discordpy.readthedocs.io/en/stable/','_blank')" class="sandbot-list">Discord.py</span>
+          <span onclick="window.open('https://www.python.org/','_blank')" class="sandbot-list">Python</span>
+      </div>
+    </div>
+
+    <div class="projects-bottom">
+      <div class="project-studiverse">
+        <div>
+          Dolfin Ventures
+        </div>
+          <img class="dolfin-logo" src="assets/dolfin-logo-circle.png">
+          <p class="project-studiverse-desc">
+            Dolfin Ventures is a start up company in Beaufort, SC. I worked as a Game Developer Intern using Unity and C#. We created projects for clients to build
+            their ideas into games that any user can play. Here are some things I used at this internship:
+          </p>
+          <span onclick="window.open('https://unity.com/','_blank')" class="studiverse-list">Unity</span>
+          <span onclick="window.open('https://reactnative.dev/','_blank')" class="studiverse-list">React Native</span>
+          <span onclick="window.open('https://firebase.google.com/','_blank')" class="studiverse-list">Firebase</span>
+      </div>
+      <div class="project-sandbot">
+        <div>
+          Criminal Database App
+        </div>
+          <img class="sandbot-logo" src="assets/sand-bot-circle.png">
+          <p class="project-studiverse-desc">
+            StudiVerse is a mobile app to help students find tutors in college. Ever found yourself not able to find session or tutors from your college? With StudiVerse,
+            we have fixed that problem! This project includes:
+          </p>
+          <span onclick="window.open('https://discordpy.readthedocs.io/en/stable/','_blank')" class="studiverse-list">Discord.py</span>
+          <span onclick="window.open('https://www.python.org/','_blank')" class="studiverse-list">Python</span>
+      </div>
+    </div>
+
+    <header class="projects-desc">All of these projects can be viewed on my 
+      <span onclick="window.open('https://github.com/x56sandmanx','_blank')" class="github-link">
+        GitHub!
+      </span>
+    </header>
+
+    <header class="contact-me" id="contact">Contact Me!</header>
+      <p class="contact-me-desc">Get in touch with me!</p>
+      <form class="contact-form" action="https://formsubmit.co/colinsandman01@gmail.com" method="POST">
+        <input class="input-box" type="text" id="name" name="name" placeholder="Name" required><br>
+        <input class="input-box" type="email" id="email" name="email" placeholder="Email Address" required><br>
+        <textarea width=100%; rows="4" cols="40" class="input-box" type="text" id="message" name="message" placeholder="Write your message here!" required></textarea><br>
+        <input class="contact-send" type="submit" value="Send">
+      </form> 
+  </body>
+</html>

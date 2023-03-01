@@ -1,0 +1,405 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.title-header {
+  font-size: 50px;
+  font-family: Arial;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  border: none;
+}
+.nav-tab{
+  list-style: none;
+}
+#nav-tab li{
+  display: inline-flex;
+}
+#nav-tab li a{
+ text-decoration: none;
+ color:rgba(255, 255, 255, 0.8);
+ padding: 10px;
+ font-weight: 600;
+ font-size: 2vw;
+ padding-left: 10px;
+}
+
+#nav-tab li a:hover {
+  color:#fff;
+  background-color: #e74c3c;
+  border-radius: 10px;
+}
+
+.backgroundTitle {
+  background-color: rgb(40, 40, 40);
+  border-radius: 100px;
+  margin-top: 12%;
+  margin-bottom: 20%;
+  box-shadow: 5px 10px 10px rgba(0,0,0,0.7);
+  margin-right: 10px;
+  margin-left: 10px;
+  
+}
+.wrap {
+  text-align: center;
+}
+.containerTitle{
+  margin-top: 5%;
+  justify-content: center;
+  display: inline-block;
+}
+.typewriterTitle {
+  color: white;
+  flex-wrap: wrap;
+  overflow: hidden;
+  border-right: .15em solid white;
+  white-space: nowrap;
+  margin: 0 auto;
+  width: 0;
+  font-size: 7vw;
+  font-family: monospace;
+  font-weight: bold;
+  animation: typing 2.5s steps(30, end) forwards, blink 0.8s infinite;
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink {
+  from { border-color: transparent }
+  to { border-color: white; }
+}
+
+.wrap2 {
+  text-align: center;
+}
+.containerSubTitle{
+  margin-top: 1px;
+  justify-content: center;
+  display: inline-block;
+  margin-bottom: 5%;
+}
+.typewriterSubTitle {
+  color: white;
+  overflow: hidden;
+  border-right: .15em solid white;
+  white-space: nowrap;
+  margin: 0 auto;
+  font-size: 3vw;
+  font-family: monospace;
+  animation-delay: 1s;
+  animation: typing 1.5s steps(30, end) forwards, blink 0.8s infinite;
+}
+
+.buttons {
+  text-align: center;
+  margin-top: 1%;
+}
+.github {
+  text-align: center;
+  display: inline-block;
+}
+.github-logo {
+  width: 40px;
+}
+.github-text {
+  width: 80px;
+}
+.github button {
+  font-size: 22px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  cursor: pointer;
+  background-color: rgb(44, 40, 40);
+  transition: opacity 0.15s;
+}
+.github button:hover {
+  opacity: 0.7;
+}
+.github:active {
+  opacity: 0.6;
+}
+
+.linkedin {
+  text-align: center;
+  display: inline-block;
+}
+.linkedin img {
+  width: 120px;
+  height: 30px;
+  
+}
+.linkedin button {
+  font-size: 22px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  cursor: pointer;
+  background-color: rgb(24, 202, 214);
+  transition: opacity 0.15s;
+}
+.linkedin button:hover {
+  opacity: 0.7;
+}
+.linkedin button:active {
+  opacity: 0.6;
+}
+
+.about-me {
+  font-family: monospace;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  font-size: 36px;
+  margin-top: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.about-me p {
+  font-size: 28px;
+  font-family: monospace;
+  font-weight: normal;
+  background-color: rgb(44, 40, 40);
+  border-radius: 10px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 2%;
+  padding-right: 2;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
+}
+
+.USC{
+  transition: opacity 0.15s;
+}
+.USC:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  opacity: 0.7;
+}
+.USC:active {
+  opacity: 0.4;
+}
+.USC-CSCE:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  opacity: 0.7;
+}
+.USC-CSCE:active {
+  opacity: 0.4;
+}
+
+.projects-title {
+  color: white;
+  text-align: center;
+  font-family: monospace;
+  font-size: 48px;
+  margin-top: 100px;
+  font-weight: bold;
+}
+.projects-top {
+  color: white;
+  text-align: center;
+  font-family: monospace;
+  font-size: 48px;
+  margin-top: 20px;
+  margin-bottom: -20px;
+  font-weight: bold;
+  display: flex;
+}
+.project-studiverse {
+  font-size: 36px;
+  background-color: rgb(44, 40, 40);
+  border-radius: 15px;
+  padding-top: 10px;
+  margin-top: 30px;
+  width: 50%;
+  margin-right: 5px;
+  margin-left: 10px;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
+}
+.project-studiverse-desc {
+  font-size: 24px;
+  font-weight: normal;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 10px;
+}
+.studiverse-logo {
+  width: 15%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.studiverse-list {
+  font-size: 24px;
+  margin-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  transition: opacity 0.15s;
+  margin-top: 0;
+}
+.studiverse-list:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  opacity: 0.7;
+}
+.studiverse-list:active {
+  opacity: 0.4;
+}
+.project-sandbot {
+  font-size: 36px;
+  background-color: rgb(44, 40, 40);
+  border-radius: 15px;
+  padding-top: 10px;
+  margin-top: 30px;
+  width: 50%;
+  margin-left: 5px;
+  margin-right: 10px;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
+}
+.project-sandbot-desc {
+  font-size: 24px;
+  font-weight: normal;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 5px;
+}
+.sandbot-list {
+  font-size: 24px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  transition: opacity 0.15s;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.sandbot-list:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  opacity: 0.7;
+}
+.sandbot-list:active {
+  opacity: 0.4;
+}
+.sandbot-logo {
+  width: 10%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.projects-bottom {
+  color: white;
+  text-align: center;
+  font-family: monospace;
+  font-size: 48px;
+  font-weight: bold;
+  display: flex;
+}
+.project-dolfin {
+  font-size: 36px;
+  background-color: rgb(44, 40, 40);
+  border-radius: 15px;
+  padding-top: 10px;
+  margin-top: 30px;
+  width: 50%;
+  margin-right: 5px;
+}
+.project-studiverse-desc{
+  font-size: 24px;
+  font-weight: normal;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 5px;
+}
+.dolfin-logo {
+  width: 10%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.projects-desc {
+  color: white;
+  text-align: center;
+  font-family: monospace;
+  font-size: 24px;
+  margin-top: 25px;
+  font-weight: bold;
+}
+
+.github-link {
+  transition: opacity, 0.15s;
+}
+.github-link:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  opacity: 0.7;
+}
+.github-link:active {
+  opacity: 0.5;
+}
+
+.contact-me {
+  color:white;
+  text-align: center;
+  font-size: 48px;
+  font-family: monospace;
+  font-weight: bold;
+  padding-top: 10%;
+}
+.contact-me-desc {
+  color:white;
+  text-align: center;
+  font-size: 24px;
+  font-family: monospace;
+  margin-top: 0;
+}
+.contact-form {
+  text-align: center;
+  font-size: 48px;
+}
+.contact-send{
+  background-color: rgb(131, 129, 129);
+  border: none;
+  border-radius: 7.5px;
+  font-size: 36px;
+  font-family: monospace;
+  padding-left: 10px;
+  padding-right: 10px;
+  transition: opacity, 0.15s;
+  margin-bottom: 100px;
+}
+.contact-send:hover{
+  cursor: pointer;
+  opacity: 0.7;
+}
+.contact-send:active{
+  opacity: 0.4;
+}
+.input-box{
+  font-size: 32px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: none;
+  
+}
+.input-box::placeholder{
+  font-size: 24px;
+}
