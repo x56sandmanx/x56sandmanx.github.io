@@ -26,6 +26,17 @@ html {
  padding-left: 10px;
 }
 
+@media (max-width: 414px) {
+  #nav-tab li a{
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    font-weight: 600;
+    font-size: 6vw;
+    padding-left: 5px;
+   }
+}
+
 #nav-tab li a:hover {
   color:#fff;
   background-color: #e74c3c;
@@ -40,7 +51,6 @@ html {
   box-shadow: 5px 10px 10px rgba(0,0,0,0.7);
   margin-right: 10px;
   margin-left: 10px;
-  width: 100%;
   
 }
 .wrap {
@@ -110,7 +120,7 @@ html {
   width: 80px;
 }
 .github button {
-  font-size: 22px;
+  font-size: 1.5vw;
   color: white;
   border: none;
   border-radius: 10px;
@@ -139,7 +149,7 @@ html {
   
 }
 .linkedin button {
-  font-size: 22px;
+  font-size: 1.5vw;
   color: white;
   border: none;
   border-radius: 10px;
@@ -163,13 +173,20 @@ html {
   text-align: center;
   font-weight: bold;
   color: white;
-  font-size: 36px;
+  font-size: 2.5vw;
   margin-top: 20px;
   margin-left: 10%;
   margin-right: 10%;
 }
+
+@media (max-width: 414px) {
+  .about-me {
+    font-size: 8vw;
+  }
+}
+
 .about-me p {
-  font-size: 28px;
+  font-size: 2vw;
   font-family: monospace;
   font-weight: normal;
   background-color: rgb(44, 40, 40);
@@ -179,6 +196,12 @@ html {
   padding-left: 2%;
   padding-right: 2;
   box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
+}
+
+@media (max-width: 414px){
+  .about-me p {
+    font-size: 6vw;
+  }
 }
 
 .USC{
@@ -205,22 +228,43 @@ html {
   color: white;
   text-align: center;
   font-family: monospace;
-  font-size: 48px;
+  font-size: 2.5vw;
   margin-top: 100px;
   font-weight: bold;
+}
+
+@media (max-width: 414px){
+  .projects-title {
+    font-size: 8vw;
+    margin-top:25vw;
+  }
 }
 .projects-top {
   color: white;
   text-align: center;
   font-family: monospace;
-  font-size: 48px;
+  font-size: 2.5vw;
   margin-top: 20px;
   margin-bottom: -20px;
   font-weight: bold;
   display: flex;
 }
+
+@media (max-width: 414px){
+  .projects-top {
+    color: white;
+    text-align: center;
+    font-family: monospace;
+    font-size: 2.5vw;
+    margin-top: 20px;
+    margin-bottom: -20px;
+    font-weight: bold;
+    display:list-item;
+  }
+}
+
 .project-studiverse {
-  font-size: 36px;
+  font-size: 2vw;
   background-color: rgb(44, 40, 40);
   border-radius: 15px;
   padding-top: 10px;
@@ -230,8 +274,21 @@ html {
   margin-left: 10px;
   box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
 }
+
+@media (max-width: 414px){
+  .project-studiverse {
+    font-size: 7vw;
+    background-color: rgb(44, 40, 40);
+    border-radius: 15px;
+    padding-top: 10px;
+    margin-top: 30px;
+    width: 100%;
+    margin-left: 2%;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
+  }
+}
 .project-studiverse-desc {
-  font-size: 24px;
+  font-size: 1.3vw;
   font-weight: normal;
   margin-top: 10px;
   padding-bottom: 10px;
@@ -239,18 +296,50 @@ html {
   padding-right: 5px;
   margin-bottom: 10px;
 }
+
+@media (max-width: 414px){
+  .project-studiverse-desc {
+    font-size: 5vw;
+    font-weight: normal;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 10px;
+  }
+}
+
 .studiverse-logo {
   width: 15%;
   margin-top: 0;
   margin-bottom: 0;
 }
+
+@media (max-width: 414px) {
+  .studiverse-logo {
+    width: 20%;
+    margin-top: 3%;
+    margin-bottom: -1%;
+  }
+}
 .studiverse-list {
-  font-size: 24px;
+  font-size: 1.3vw;
   margin-top: 10px;
   padding-left: 5px;
   padding-right: 5px;
   transition: opacity 0.15s;
   margin-top: 0;
+}
+
+@media (max-width: 414px){
+  .studiverse-list {
+    font-size: 5vw;
+    margin-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    transition: opacity 0.15s;
+    margin-top: 0;
+  }
 }
 .studiverse-list:hover {
   cursor: pointer;
@@ -261,7 +350,7 @@ html {
   opacity: 0.4;
 }
 .project-sandbot {
-  font-size: 36px;
+  font-size: 2vw;
   background-color: rgb(44, 40, 40);
   border-radius: 15px;
   padding-top: 10px;
@@ -271,8 +360,21 @@ html {
   margin-right: 10px;
   box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
 }
+
+@media (max-width: 414px){
+  .project-sandbot {
+    font-size: 8vw;
+    background-color: rgb(44, 40, 40);
+    border-radius: 15px;
+    padding-top: 10px;
+    margin-top: 10px;
+    width: 100%;
+    margin-left: 2%;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
+  }
+}
 .project-sandbot-desc {
-  font-size: 24px;
+  font-size: 1.3vw;
   font-weight: normal;
   margin-top: 10px;
   padding-bottom: 10px;
@@ -280,8 +382,20 @@ html {
   padding-right: 5px;
   margin-bottom: 5px;
 }
+
+@media (max-width: 414px){
+  .project-sandbot-desc {
+    font-size: 5vw;
+    font-weight: normal;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 5px;
+  }
+}
 .sandbot-list {
-  font-size: 24px;
+  font-size: 1.3vw;
   margin-top: 10px;
   padding-bottom: 10px;
   padding-left: 5px;
@@ -289,6 +403,19 @@ html {
   transition: opacity 0.15s;
   margin-top: 0;
   margin-bottom: 10px;
+}
+
+@media (max-width: 414px) {
+  .sandbot-list {
+    font-size: 5vw;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    transition: opacity 0.15s;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
 }
 .sandbot-list:hover {
   cursor: pointer;
@@ -304,16 +431,35 @@ html {
   margin-bottom: 0;
 }
 
+@media (max-width: 414px) {
+  .sandbot-logo {
+    width: 15%;
+    margin-top: 3%;
+    margin-bottom: 0;
+  }
+}
+
 .projects-bottom {
   color: white;
   text-align: center;
   font-family: monospace;
-  font-size: 48px;
+  font-size: 2.5vw;
   font-weight: bold;
   display: flex;
 }
+
+@media (max-width: 414px){
+  .projects-bottom {
+    color: white;
+    text-align: center;
+    font-family: monospace;
+    font-size: 2.5vw;
+    font-weight: bold;
+    display: list-item;
+  }
+}
 .project-dolfin {
-  font-size: 36px;
+  font-size: 2vw;
   background-color: rgb(44, 40, 40);
   border-radius: 15px;
   padding-top: 10px;
@@ -321,28 +467,46 @@ html {
   width: 50%;
   margin-right: 5px;
 }
-.project-studiverse-desc{
-  font-size: 24px;
-  font-weight: normal;
-  margin-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 5px;
-  padding-right: 5px;
-  margin-bottom: 5px;
+
+@media (max-width: 414px){
+  .project-dolfin {
+    font-size: 8vw;
+    width: 100%;
+  }
 }
+
 .dolfin-logo {
   width: 10%;
   margin-top: 0;
   margin-bottom: 0;
 }
 
+@media (max-width: 414px){
+  .dolfin-logo {
+    width: 15%;
+    margin-top: 3%;
+    margin-bottom: -1%;
+  }
+}
+
 .projects-desc {
   color: white;
   text-align: center;
   font-family: monospace;
-  font-size: 24px;
+  font-size: 1.3vw;
   margin-top: 25px;
   font-weight: bold;
+}
+
+@media (max-width: 414px) {
+  .projects-desc {
+    color: white;
+    text-align: center;
+    font-family: monospace;
+    font-size: 5vw;
+    margin-top: 5%;
+    font-weight: bold;
+  }
 }
 
 .github-link {
@@ -360,32 +524,68 @@ html {
 .contact-me {
   color:white;
   text-align: center;
-  font-size: 48px;
+  font-size: 2.5vw;
   font-family: monospace;
   font-weight: bold;
   padding-top: 10%;
 }
+
+@media (max-width: 414px) {
+  .contact-me {
+    color:white;
+    text-align: center;
+    font-size: 10vw;
+    font-family: monospace;
+    font-weight: bold;
+    padding-top: 10%;
+  }
+}
 .contact-me-desc {
   color:white;
   text-align: center;
-  font-size: 24px;
+  font-size: 1.3vw;
   font-family: monospace;
   margin-top: 0;
 }
+
+@media (max-width: 414px) {
+  .contact-me-desc {
+    color:white;
+    text-align: center;
+    font-size: 5vw;
+    font-family: monospace;
+    margin-top: 0;
+  }
+}
 .contact-form {
   text-align: center;
-  font-size: 48px;
+  font-size: 2vw;
 }
+
 .contact-send{
   background-color: rgb(131, 129, 129);
   border: none;
   border-radius: 7.5px;
-  font-size: 36px;
+  font-size: 2vw;
   font-family: monospace;
   padding-left: 10px;
   padding-right: 10px;
   transition: opacity, 0.15s;
   margin-bottom: 100px;
+}
+
+@media (max-width: 414px) {
+  .contact-send{
+    background-color: rgb(131, 129, 129);
+    border: none;
+    border-radius: 7.5px;
+    font-size: 7vw;
+    font-family: monospace;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: opacity, 0.15s;
+    margin-bottom: 100px;
+  }
 }
 .contact-send:hover{
   cursor: pointer;
@@ -395,12 +595,53 @@ html {
   opacity: 0.4;
 }
 .input-box{
-  font-size: 32px;
+  font-size: 2vw;
   margin-bottom: 10px;
   border-radius: 10px;
   border: none;
-  
+}
+
+@media (max-width: 414px) {
+  .input-box{
+    font-size: 8vw;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+    border: none;
+  }
 }
 .input-box::placeholder{
-  font-size: 24px;
+  font-size: 1.5vw;
+}
+
+.input-box-textarea {
+  font-size: 2vw;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+@media (max-width: 414px) {
+  .input-box-textarea {
+    font-size: 4.43vw;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: none;
+  }
+}
+.input-box-textarea::placeholder{
+  font-size: 1.5vw;
+}
+
+@media (max-width: 414px) {
+  .input-box-textarea::placeholder{
+    font-size: 4vw;
+  }
+  
+}
+
+@media (max-width: 414px){
+  .input-box::placeholder{
+    font-size: 5vw;
+  }
 }
