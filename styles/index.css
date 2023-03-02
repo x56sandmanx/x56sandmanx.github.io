@@ -258,7 +258,7 @@ html {
     font-family: monospace;
     font-size: 2.5vw;
     margin-top: 20px;
-    margin-bottom: -20px;
+    margin-bottom: 0px;
     font-weight: bold;
     display:list-item;
   }
@@ -282,9 +282,10 @@ html {
     background-color: rgb(44, 40, 40);
     border-radius: 15px;
     padding-top: 10px;
-    margin-top: 30px;
+    margin-top: 0px;
     width: 100%;
     margin-left: 2%;
+    margin-right: -2%;
     box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
   }
 }
@@ -624,7 +625,7 @@ html {
 
 @media (max-width: 414px) {
   .input-box-textarea {
-    font-size: 4.43vw;
+    font-size: 2vw;
     margin-bottom: 10px;
     border-radius: 10px;
     border: none;
