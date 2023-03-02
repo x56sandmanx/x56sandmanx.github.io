@@ -26,7 +26,7 @@ html {
  padding-left: 10px;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 500px) {
   #nav-tab li a{
     text-decoration: none;
     color:rgba(255, 255, 255, 0.8);
@@ -179,7 +179,7 @@ html {
   margin-right: -2%;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 500px) {
   .about-me {
     font-size: 8vw;
   }
@@ -198,7 +198,7 @@ html {
   box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
 }
 
-@media (max-width: 414px){
+@media (max-width: 500px){
   .about-me p {
     font-size: 6vw;
     margin-top: 2%;
@@ -234,7 +234,7 @@ html {
   font-weight: bold;
 }
 
-@media (max-width: 414px){
+@media (max-width: 500px){
   .projects-title {
     font-size: 8vw;
     margin-top:25vw;
@@ -251,7 +251,7 @@ html {
   display: flex;
 }
 
-@media (max-width: 414px){
+@media (max-width: 500px){
   .projects-top {
     color: white;
     text-align: center;
@@ -276,13 +276,13 @@ html {
   box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
 }
 
-@media (max-width: 414px){
+@media (max-width: 500px){
   .project-studiverse {
     font-size: 7vw;
     background-color: rgb(44, 40, 40);
     border-radius: 15px;
     padding-top: 10px;
-    margin-top: 0px;
+    margin-top: 10px;
     width: 100%;
     margin-left: 2%;
     margin-right: -2%;
@@ -299,7 +299,7 @@ html {
   margin-bottom: 10px;
 }
 
-@media (max-width: 414px){
+@media (max-width: 500px){
   .project-studiverse-desc {
     font-size: 5vw;
     font-weight: normal;
@@ -317,7 +317,7 @@ html {
   margin-bottom: 0;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 500px) {
   .studiverse-logo {
     width: 20%;
     margin-top: 3%;
@@ -333,7 +333,7 @@ html {
   margin-top: 0;
 }
 
-@media (max-width: 414px){
+@media (max-width: 500px){
   .studiverse-list {
     font-size: 5vw;
     margin-top: 10px;
@@ -363,7 +363,7 @@ html {
   box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
 }
 
-@media (max-width: 414px){
+@media (max-width: 500px){
   .project-sandbot {
     font-size: 8vw;
     background-color: rgb(44, 40, 40);
@@ -385,7 +385,7 @@ html {
   margin-bottom: 5px;
 }
 
-@media (max-width: 414px){
+@media (max-width: 500px){
   .project-sandbot-desc {
     font-size: 5vw;
     font-weight: normal;
@@ -407,7 +407,7 @@ html {
   margin-bottom: 10px;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 500px) {
   .sandbot-list {
     font-size: 5vw;
     margin-top: 10px;
@@ -433,7 +433,7 @@ html {
   margin-bottom: 0;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 500px) {
   .sandbot-logo {
     width: 15%;
     margin-top: 3%;
@@ -450,7 +450,7 @@ html {
   display: flex;
 }
 
-@media (max-width: 414px){
+@media (max-width: 500px){
   .projects-bottom {
     color: white;
     text-align: center;
@@ -470,7 +470,7 @@ html {
   margin-right: 5px;
 }
 
-@media (max-width: 414px){
+@media (max-width: 500px){
   .project-dolfin {
     font-size: 8vw;
     width: 100%;
@@ -483,7 +483,7 @@ html {
   margin-bottom: 0;
 }
 
-@media (max-width: 414px){
+@media (max-width: 500px){
   .dolfin-logo {
     width: 15%;
     margin-top: 3%;
@@ -500,7 +500,7 @@ html {
   font-weight: bold;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 500px) {
   .projects-desc {
     color: white;
     text-align: center;
@@ -532,7 +532,7 @@ html {
   padding-top: 10%;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 500px) {
   .contact-me {
     color:white;
     text-align: center;
@@ -550,7 +550,7 @@ html {
   margin-top: 0;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 500px) {
   .contact-me-desc {
     color:white;
     text-align: center;
@@ -576,7 +576,7 @@ html {
   margin-bottom: 100px;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 500px) {
   .contact-send{
     background-color: rgb(131, 129, 129);
     border: none;
@@ -603,7 +603,7 @@ html {
   border: none;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 500px) {
   .input-box{
     font-size: 8vw;
     margin-bottom: 10px;
@@ -623,7 +623,7 @@ html {
   border: none;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 500px) {
   .input-box-textarea {
     font-size: 2vw;
     margin-bottom: 10px;
@@ -635,14 +635,14 @@ html {
   font-size: 1.5vw;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 500px) {
   .input-box-textarea::placeholder{
     font-size: 4vw;
   }
   
 }
 
-@media (max-width: 414px){
+@media (max-width: 500px){
   .input-box::placeholder{
     font-size: 5vw;
   }
