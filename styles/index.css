@@ -201,6 +201,7 @@ html {
 @media (max-width: 414px){
   .about-me p {
     font-size: 6vw;
+    margin-top: 2%;
   }
 }
 
