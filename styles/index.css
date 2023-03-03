@@ -43,101 +43,71 @@ html {
   border-radius: 10px;
 }
 
-.backgroundTitle {
-  background-color: rgb(40, 40, 40);
-  border-radius: 100px;
-  margin-top: 12%;
-  margin-bottom: 20%;
-  box-shadow: 5px 10px 10px rgba(0,0,0,0.7);
-  margin-right: 10px;
-  margin-left: 10px;
+#container {
+	text-align: center;
+  margin-top: 22%;
+  margin-bottom: 28%;
 }
 
-@media (max-width: 500px){
-  .backgroundTitle {
-    background-color: rgb(40, 40, 40);
-    border-radius: 100px;
-    margin-top:70%;
-    margin-bottom: 150%;
-    box-shadow: 5px 10px 10px rgba(0,0,0,0.7);
+@media (max-width: 500px) {
+  #container {
+    text-align: center;
+    margin-top: 100%;
+    margin-bottom: 28%;
+    height: 75px;
+    margin-left: 1%;
     margin-right: -12%;
-    margin-left: 0;
-    padding-bottom: 25%;
   }
 }
-.wrap {
-  text-align: center;
-}
-.containerTitle{
-  margin-top: 5%;
-  justify-content: center;
-  display: inline-block;
-}
-.typewriterTitle {
-  color: white;
-  flex-wrap: wrap;
-  overflow: hidden;
-  border-right: .15em solid white;
-  white-space: nowrap;
-  margin: 0 auto;
-  width: 0;
-  font-size: 7vw;
-  font-family: monospace;
+
+#text {
+	display: inline-block;
+	vertical-align:middle;
+	color: white;
   font-weight: bold;
-  animation: typing 2.5s steps(30, end) forwards, blink 0.8s infinite;
+	letter-spacing: 2px;
+  font-size: 4vw;
 }
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+
+@media (max-width: 500px) {
+  #text {
+    display: inline-block;
+    vertical-align:middle;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 12vw;
+  }
+  
+}
+
+#cursor {
+	display: inline-block;
+	vertical-align: middle;
+	width: 1px;
+	height: 100px;
+	background-color: white;
+	animation: blink .75s step-end infinite;
+}
+
+@media (max-width: 500px) {
+  #cursor {
+    display: inline-block;
+    vertical-align: middle;
+    width: 1px;
+    height: 60px;
+    background-color: white;
+    animation: blink .75s step-end infinite;
+  }
 }
 
 @keyframes blink {
-  from { border-color: transparent }
-  to { border-color: white; }
-}
-
-@media (max-width: 500px) {
-  .typewriterTitle {
-    position: relative;
-    top: 40px;
-  }
-}
-
-.wrap2 {
-  text-align: center;
-}
-.containerSubTitle{
-  margin-top: 1px;
-  justify-content: center;
-  display: inline-block;
-  margin-bottom: 5%;
-}
-.typewriterSubTitle {
-  color: white;
-  overflow: hidden;
-  border-right: .15em solid white;
-  white-space: nowrap;
-  margin: 0 auto;
-  font-size: 3vw;
-  font-family: monospace;
-  animation-delay: 1s;
-  animation: typing 1.5s steps(30, end) forwards, blink 0.8s infinite;
-}
-
-@media (max-width: 500px) {
-  .typewriterSubTitle {
-    color: white;
-    overflow: hidden;
-    border-right: .15em solid white;
-    white-space: nowrap;
-    margin: 0 auto;
-    font-size: 6vw;
-    font-family: monospace;
-    animation-delay: 1s;
-    position: relative;
-    top: 40px;
-    animation: typing 1.5s steps(30, end) forwards, blink 0.8s infinite;
-  }
+	from, to { 
+		background-color: transparent 
+	}
+	50% { 
+		background-color: white; 
+	}
 }
 
 .buttons {
@@ -148,7 +118,7 @@ html {
 @media (max-width: 500px) {
   .buttons {
     text-align: center;
-    margin-top: -50%;
+    margin-top: 130%;
     margin-left: 10%;
     margin-bottom: 20%;
   }

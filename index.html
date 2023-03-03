@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="styles/index.css">
     <meta name="viewport" content="width=device-width" />
   </head>
-  <body style="background-color: rgb(92, 90, 90);">
+  <body onload="window.scroll(0,100)" style="background-color: rgb(92, 90, 90);">
     <ul id="nav-tab">
       <li>
         <a href="#aboutme">About Me</a>
@@ -22,22 +22,11 @@
         </a>
       </li>
     </ul>
-    <div class="backgroundTitle">
-      <div class = "wrap">
-        <div class="containerTitle">
-          <div class="typewriterTitle">
-              Hi, I'm Colin Sandman
-          </div>
-        </div>
-      </div>
-      <div class = "wrap2">
-        <div class="containerSubTitle">
-          <div class="typewriterSubTitle">
-              Welcome to my page!
-          </div>
-        </div>
-      </div>
-    </div>
+      <section id="container">
+        <span id="text"></span><span id="cursor"></span>
+      </section>
+      <script src="typewriter.js"></script>
+    
     <div class="buttons">
       <div class ="github">
         <button onclick="window.open('https://github.com/x56sandmanx','_blank')">
