@@ -83,9 +83,9 @@ html {
 
 #cursor {
 	display: inline-block;
-	vertical-align: middle;
-	width: 1px;
-	height: 100px;
+	vertical-align: -2vw;
+	width: .05vw;
+	height: 5vw;
 	background-color: white;
 	animation: blink .75s step-end infinite;
 }
