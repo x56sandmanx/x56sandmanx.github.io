@@ -386,6 +386,14 @@ html {
   margin-right: 10px;
   box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
 }
+.sandbot-title:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  opacity: 0.7;
+}
+.sandbot-title:active {
+  opacity: 0.4;
+}
 
 @media (max-width: 500px){
   .project-sandbot {
